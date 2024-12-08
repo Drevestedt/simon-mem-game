@@ -11,4 +11,8 @@ function newGame() {
   game.currentGame = 0;
 }
 
+function showScore() {
+  document.getElementById("score").innerText = game.score;
+}
+
 module.exports = { game, newGame };

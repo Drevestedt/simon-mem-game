@@ -48,6 +48,6 @@ describe("newGame works correctly", () => {
     expect(game.currentGame).toEqual(0);
   });
   test("should display 0 for the id of score", () => {
-    expect();
+    expect(document.getElementById("score").innerText).toEqual(0);
   });
 });
