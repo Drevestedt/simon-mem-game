@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-const { game, newGame } = require("../index");
+const { game, newGame, showScore } = require("../index");
 
 beforeAll(() => {
   let fs = require("fs");
